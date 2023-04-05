@@ -1,0 +1,19 @@
+package day07.protec.pac1;
+
+public class A {
+
+    protected int f1;
+    int f2; // default
+
+    protected void m1() { //protected
+
+    }
+    void m2() { // default
+
+    }
+
+    public A() {}
+    protected A(int a) {}
+
+    A(String s) {}
+}
