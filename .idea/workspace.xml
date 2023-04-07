@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="278ed049-f491-4b46-8529-bb25d2d1950e" name="Changes" comment="initial commit">
+    <list default="true" id="278ed049-f491-4b46-8529-bb25d2d1950e" name="Changes" comment="음악관리 프로그램&#10;1. 노래 등록 수정중&#10;수업 자료 복붙전">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/LibraryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/LibraryView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day04/array/StringList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/array/StringList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/music_/MusicList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/music_/MusicRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/music_/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/music_/Run.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/music_/Search.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/music_/Singer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/music_/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,33 +59,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java_basic&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/java_basic/src/day10/collection/song",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="day08.poly" />
       <recent name="day05.member" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_basic\src\day10\collection\song" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day10.collection.list" />
       <recent name="day02" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.day09.music_.Run">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.abs.Main" />
+  <component name="RunManager" selected="애플리케이션.Test01">
+    <configuration name="MapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.collection.map.MapExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.abs.*" />
+          <option name="PATTERN" value="day10.collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,11 +98,37 @@
       </method>
     </configuration>
     <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.poly.book.Run" />
+      <option name="MAIN_CLASS_NAME" value="music_.Run" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.poly.book.*" />
+          <option name="PATTERN" value="music_.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.collection.set.SetExample" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day10.collection.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="friends.Test" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="friends.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,39 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day09.music_.Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.music_.Run" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09.music_.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day09.quiz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.quiz.Main" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day09.quiz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.day09.music_.Run" />
         <item itemvalue="애플리케이션.Test01" />
-        <item itemvalue="애플리케이션.day09.quiz.Main" />
-        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Run" />
+        <item itemvalue="애플리케이션.Test" />
+        <item itemvalue="애플리케이션.MapExample" />
+        <item itemvalue="애플리케이션.SetExample" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680685945536</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="음악관리 프로그램&#10;1. 노래 등록 수정중&#10;수업 자료 복붙전">
+      <created>1680777916359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680777916359</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,7 +205,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="음악관리 프로그램&#10;1. 노래 등록 수정중&#10;수업 자료 복붙전" />
+    <option name="LAST_COMMIT_MESSAGE" value="음악관리 프로그램&#10;1. 노래 등록 수정중&#10;수업 자료 복붙전" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

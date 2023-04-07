@@ -1,4 +1,4 @@
-package day09.music_;
+package music_;
 
 import java.util.Arrays;
 
@@ -13,21 +13,23 @@ public class Register {
     public /*String[][]*/ void newRegister(String name, String title) {
 
         int findIndex = searchNameIndex(name);
-        if (findIndex == -1) {
+        if (findIndex == -1) { // 가수를 새로 등록 해야하는 경우
+           // System.out.println("musicList.length = " + musicList.length);
             findIndex = musicList.length + 1;
-            String[][] temp = new String[findIndex][1];
+            String[][] temp = new String[findIndex][1]; // 배열크기를 키우고 복사하려면 행 길이, 열 길이 둘다 늘려야하고 행마다 열길이가 다 다름 해결하려면 너무 복잡해짐
+
             temp[findIndex - 1][0] = name;
             musicList = temp;
             temp = null;
             addTitle(findIndex, title);
 
-        } else {
+        } else { // 이미 해당 가수가 등록돼 있는 경우
             addTitle(findIndex + 1, title);
         }
 
         for (int i = 0; i < musicList.length; i++) {
             for (int j = 0; j < musicList[i].length; j++) {
-                System.out.println(musicList[i][j]);
+                System.out.print(musicList[i][j] + " ");
             }
         }
 
@@ -38,9 +40,7 @@ public class Register {
     // 1. 노래 등록하기
     public void addTitle(int findIndex, String title) {
 
-        // 가수 [i][] 인덱스를 찾은 후
         // 해당 인덱스 (길이 + 1) 만큼 배열길이 늘리기
-//        if(findIndex == 1) {
         String[][] temp = new String[musicList.length][musicList[findIndex - 1].length + 1];
 
         for (int i = 0; i < temp[findIndex - 1].length - 1; i++) {
@@ -51,7 +51,7 @@ public class Register {
         musicList = temp;
         temp = null;
 
-        System.out.println(Arrays.toString(musicList[findIndex - 1]));
+//        System.out.println(Arrays.toString(musicList[findIndex - 1]));
     }
 
     // 가수 인덱스 검사하기
